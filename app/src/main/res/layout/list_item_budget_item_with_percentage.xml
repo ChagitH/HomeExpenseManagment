@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:minHeight="@dimen/cell_height"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- android:layout_width="0dp" android:layout_weight="0.2" -->
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content"
+        android:id="@+id/budgetItemPersentageFrameLayout">
+
+        <TextView
+            android:id="@+id/budgetItemPersentageBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorForPercentageBackground" />
+
+        <TextView
+            android:id="@+id/budgetItemPersentageForground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorForPercentageforground" />
+
+        <TextView
+            android:paddingTop="@dimen/padding_top_tiny"
+            android:paddingBottom="@dimen/padding_top_tiny"
+            android:paddingRight="@dimen/padding_horizontal_small"
+            android:id="@+id/budgetItemPercentageNum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparentColor"
+            android:gravity="center"
+            android:text="000"
+            android:textColor="@color/textColor"
+            android:textSize="10sp" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:gravity="right"
+        android:id="@+id/budgetItemTVname"
+        android:paddingRight="@dimen/padding_horizontal"
+        android:textSize="@dimen/list_item_text_size"
+        android:textColor="@color/textColor"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>

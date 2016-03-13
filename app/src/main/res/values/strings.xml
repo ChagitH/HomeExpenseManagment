@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">מקימי</string>
+    <string name="title_activity_main">Mekimi</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="title_add_expense">הוצאה חדשה</string>
+    <string name="title_expense_summary">הוצאות</string>
+    <string name="title_budget">תקציב</string>
+    <string name="title_incomes">הכנסות</string>
+    <string name="title_debts">חובות</string>
+
+    <string name="num_of_payments">מספר תשלומים</string>
+    <string name="sum">סכום</string>
+    <string name="keva">הוראת קבע</string>
+    <string name="note">הערה</string>
+    <string name="add_expense">רשום</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_login">כניסה</string>
+    <string name="title_register">הרשמה</string>
+    <string name="email">דוא״ל</string>
+    <string name="password">סיסמה</string>
+    <string name="username">שם משתמש</string>
+    <string name="not_registered_go_to_registration">אין לי חשבון עלי להרשם</string>
+    <string name="forgot_password">שכחתי סיסמה</string>
+    <string name="create_account_as_main_account">צור חשבון זה כחשבון ראשי</string>
+    <string name="main_account_email">דוא״ל חשבון ראשי</string>
+    <string name="main_account_password">סיסמה חשבון ראשי</string>
+    <string name="main_account">חשבון ראשי</string>
+    <string name="login">כניסה</string>
+    <string name="register">הרשמה</string>
+    <string name="cancel">ביטול</string>
+    <string name="go_back_to_login">כבר יש לי חשבון. לכניסה</string>
+    <string name="you_are_not_logged_in">אין משתמש מחובר</string>
+    <string name="hello">שלום</string>
+    <string name="exlamation_mark">!</string>
+    <string name="logout">החלף משתמש</string>
+
+    <string name="add_budget_item">הוספת סעיף</string>
+    <string name="save">שמירה</string>
+    <string name="add_category_item">הוספת קטגוריה</string>
+    <string name="new_category">קטגוריה חדשה</string>
+    <string name="new_category_name">שם הקטגוריה החדשה</string>
+    <string name="delete_item">מחק</string>
+    <string name="update_item">עדכן</string>
+    <string name="category_possibilities">אפשרויות לקטגוריה</string>
+    <string name="budget_item_possibilities">אפשרויות לסעיף</string>
+    <string name="category_cannot_delete">בקטגוריה זו יש סעיפי תקציב, לכן לא ניתן למחוק אותה. מחק קודם את סעיפי התקציב בקטגוריה זו.</string>
+    <string name="new_budget_estimated_sum">תקציב מתוכנן</string>
+    <string name="new_budget_added_to">הוספת סעיף תקציבי ל</string>
+    <string name="new_budget_name">סעיף תקציבי</string>
+    <string name="are_you_sure_to_delete">האם למחוק את</string>
+    <string name="are_you_sure_to_delete_expense_from_date">האם למחוק את ההוצאה מתאריך</string>
+    <string name="question_mark">\'?\'</string>
+    <string name="expense_is_part_of_payments">הוא חלק מסדרת תשלומים</string>
+    <string name="delete_all_payments">מחק את כל התשלומים</string>
+    <string name="delete_payments_from_now_on">מחק תשלומים עתידיים</string>
+    <string name="erase_expense">מחיקת הוצאה</string>
+    <string name="nis">₪</string>
+    <string name="percent">%</string>
+    <string name="income_origin">מקור ההכנסה</string>
+    <string name="income_rutine">הכנסה קבועה</string>
+    <string name="income_one_time">הכנסה חד פעמית</string>
+    <string name="income_incomes_for_this_month">הכנסות לחודש זה</string>
+    <string name="income_add_income">הוסף הכנסה</string>
+    <string name="debt_deletion">מחיקת חוב</string>
+    <string name="update">עידכון</string>
+    <string name="debt_has_past_payments">כבר שולמו תשלומים בעבר</string>
+    <string name="to">ל</string>
+    <!--
+    <string name="debt_erase_past_payments">%</string>
+    <string name="debt_keep_past_payments">%</string>
+    -->
+    <string name="income_deletion">מחיקת הכנסה</string>
+    <string name="income_is_routine">היא הכנסה קבועה</string>
+    <string name="delete_income_from_now_on">מחק חודש זה והלאה</string>
+    <string name="delete_income_this_month_only">מחק חודש זה בלבד</string>
+    <string name="debts_add_debt">הוספת חוב חדש</string>
+    <string name="erase">מחק</string>
+    <string name="debts_creditor_name">שם הנושה</string>
+    <string name="debts_sum_of_debt">סכום החוב</string>
+    <string name="debts_interest_rate">% ריבית</string>
+    <string name="debts_monthly_retrun">החזר חודשי</string>
+    <string name="debts_payments_left">תשלומים שנותרו</string>
+    <string name="debts_updated_at">תאריך עידכון</string>
+    <string name="debts_existing_debts">חובות נותרים</string>
+    <string name="debts_total">סה״כ חובות</string>
+    <string name="debts_total_calculated">יתרת חובות משוערת</string>
+    <string name="debts_original_sum">סכום מקורי</string>
+    <string name="debts_calculated_sum">יתרה משוערת</string>
+
+
+    <string name="choose">בחר</string>
+    <string name="cancel_BATEL">בטל</string>
+    <string name="choose_date">בחר תאריך</string>
+    <string name="ok">אישור</string>
+    <string name="jan">ינואר</string>
+    <string name="feb">פברואר</string>
+    <string name="mar">מרץ</string>
+    <string name="apr">אפריל</string>
+    <string name="may">מאי</string>
+    <string name="jun">יוני</string>
+    <string name="jul">יולי</string>
+    <string name="aug">אוגוסט</string>
+    <string name="sep">ספטמבר</string>
+    <string name="oct">אוקטובר</string>
+    <string name="nov">נובמבר</string>
+    <string name="dec">דצמבר</string>
+
+    <string name="summary_total_expenses">סה״כ הוצאות לחודש</string>
+    <string name="summary_total_incomes">סה״כ הכנסות לחודש</string>
+    <string name="summary_total_balance">מאזן חודשי</string>
+    <string name="summary_total_balance_include_debts">מאזן חודשי כולל תשלום חובות</string>
+    <string name="summary_export_to_file">יצוא לקובץ</string>
+    <string name="login_problem">תקלה בחיבור</string>
+    <string name="login_account_not_exsit">משתמש לא קיים</string>
+    <string name="login_account_not_full">שדות לא מלאים</string>
+    <string name="login_account_not_exsits">חשבון ראשי לא קיים</string>
+    <string name="login_password_email_sent">דוא״ל לאיפוס ססמא נשלח לחשבונך</string>
+    <string name="login_email_not_entered">הכנס כתובת דוא״ל</string>
+    <string name="login_account_fields_not_full">שדות החשבון הראשי אינם מלאים</string>
+    <string name="login_name_not_enterd">הכנס שם</string>
+    <string name="error">תקלה</string>
+    <string name="error_problem_with_fetching_data">בעיה בהבאת נתונים מהשרת</string>
+    <string name="no_conncted_user">אין משתמש מחובר</string>
+    <string name="not_able_to_fetch_from_db">אין אפשרות להתחבר למסד הנתונים</string>
+    <string name="no_sum_entered">הכנס סכום</string>
+    <string name="no_budget_selected">לא נבחר סעיף תקציבי</string>
+    <string name="no_income_name">חסר מקור הכנסה</string>
+    <string name="no_name">חסר מקור הכנסה</string>
+    <string name="no_sum">חסר סכום</string>
+    <string name="missing_fields">שדות ריקים</string>
+    <string name="debt_possibilities">תפריט חוב</string>
+    <!--
+    <string name="sum"></string>
+    -->
+</resources>

@@ -1,0 +1,231 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding_horizontal_small"
+    android:id="@+id/debtsRelativeLayout"
+    android:paddingRight="@dimen/padding_horizontal_small"
+    tools:context="com.hazani.chagit.homeexpensemanagment.DebtsFragment">
+
+    <TextView
+        android:id="@+id/debtsTVtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_top_small"
+        android:paddingTop="@dimen/padding_title_top"
+        android:text="@string/title_debts"
+        android:textSize="@dimen/title_text_size" />
+
+
+    <TextView
+        android:id="@+id/debtsTVaddDebtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/debtsTVtitle"
+        android:layout_centerHorizontal="true"
+        android:gravity="right"
+        android:paddingBottom="@dimen/padding_top_small"
+        android:paddingTop="@dimen/padding_top_small"
+        android:text="@string/debts_add_debt" />
+
+    <LinearLayout
+        android:id="@+id/debtsLinerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/debtsTVaddDebtTitle"
+        android:background="@color/textColor"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/padding_horizontal_small"
+        android:paddingLeft="@dimen/padding_horizontal_small">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/debtsETcreditorName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingLeft="@dimen/padding_horizontal_small"
+                android:text="@string/debts_creditor_name"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/debtsETinterestRate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/debts_interest_rate"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/debtsETsum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_horizontal"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_horizontal_small"
+                android:text="@string/debts_sum_of_debt"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/debtsETnumOfMonthlyPayments"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/debts_payments_left"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/debtsETsumOfMonthlyPayment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_horizontal"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_horizontal_small"
+                android:text="@string/debts_monthly_retrun"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/debtsBcancelUpdate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/transparentColor"
+                android:text="@string/cancel"
+                android:visibility="gone"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/debtsBupdateDebt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/transparentColor"
+                android:text="@string/save"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/debtsTVdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/padding_horizontal_small"
+                    android:paddingLeft="@dimen/padding_horizontal"
+                    android:paddingRight="@dimen/padding_horizontal_small"
+                    android:paddingTop="@dimen/padding_horizontal_small"
+                    android:text="29-6-1973"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <ImageButton
+                    android:id="@+id/debtsBselectDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/email"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/debtsLinerLayout"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true">
+    <TextView
+        android:id="@+id/debtsTVexisting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_top_small"
+        android:text="@string/debts_existing_debts"
+        android:textColor="@color/textColor" />
+
+    <ListView
+        android:id="@+id/debtsListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_top_small"/>
+
+    <TextView
+        android:id="@+id/debtsTVsumaryCalculated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingTop="@dimen/padding_top_small"
+        android:paddingBottom="@dimen/padding_top_small"
+        android:textColor="@color/textColor"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        />
+</LinearLayout>
+<!--
+@+id/debtsListView"
+android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/debtsListView"-->
+
+</RelativeLayout>
+

@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding_horizontal_small"
+
+    android:paddingRight="@dimen/padding_horizontal_small"
+    tools:context="com.hazani.chagit.homeexpensemanagment.IncomesFragment">
+
+    <TextView
+        android:id="@+id/incomesTVtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_top_small"
+        android:paddingTop="@dimen/padding_title_top"
+        android:text="@string/title_incomes"
+        android:textSize="@dimen/title_text_size" />
+
+    <LinearLayout
+        android:id="@+id/incomesLayoutDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/incomesTVtitle"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/padding_top_small">
+
+        <TextView
+            android:id="@+id/incomsTVDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="date"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/medium_text_size"
+            android:theme="@style/EditTextTheme" />
+
+        <ImageButton
+            android:id="@+id/incomsBChooseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/email" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/incomesTVaddIncomeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/incomesLayoutDate"
+        android:layout_centerHorizontal="true"
+        android:gravity="right"
+        android:paddingBottom="@dimen/padding_top_small"
+        android:paddingTop="@dimen/padding_top_small"
+        android:text="@string/income_add_income" />
+
+    <LinearLayout
+        android:id="@+id/incomesLinerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/incomesTVaddIncomeTitle"
+        android:background="@color/textColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/incomesETsum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:editable="true"
+                android:enabled="true"
+                android:gravity="center"
+
+                android:hint="@string/sum"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/incomesETname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="true"
+                android:enabled="true"
+                android:focusable="true"
+                android:hint="@string/income_origin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/incomesBaddIncome"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:background="@color/transparentColor"
+                android:text="@string/save"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/incomesTVincomeType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.87"
+                android:paddingLeft="@dimen/padding_horizontal"
+                android:text="@string/income_rutine"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <CheckBox
+                android:id="@+id/incomesCbIsRutineIncome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/incomesLinerLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/incomesTVincomesforMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:text="@string/income_incomes_for_this_month"
+            android:textColor="@color/textColor" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/incomes_swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ListView
+                android:id="@+id/incomesListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_top" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <TextView
+            android:id="@+id/incomsTVmonthlySummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="left"
+            android:paddingBottom="@dimen/padding_top_small"
+            android:paddingTop="@dimen/padding_top_small"
+            android:text="@string/income_incomes_for_this_month"
+            android:textColor="@color/textColor"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
+

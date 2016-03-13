@@ -1,0 +1,120 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:2:1-52:12
+	xmlns:android
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:8:5-50:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:13:9-36
+	android:label
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:12:9-41
+	android:allowBackup
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:11:9-38
+	android:theme
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:14:9-47
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:9:9-38
+meta-data#com.parse.APPLICATION_ID
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:15:9-17:72
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:16:13-52
+	android:value
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:17:13-69
+meta-data#com.parse.CLIENT_KEY
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:18:9-20:72
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:19:13-48
+	android:value
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:20:13-69
+activity#com.hazani.chagit.homeexpensemanagment.MainActivity
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:23:9-48:20
+	android:screenOrientation
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:26:13-49
+	android:label
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:25:13-56
+	android:theme
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:24:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:31:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:37:13-47:29
+action#android.intent.action.VIEW
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:40:17-76
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:40:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:41:17-78
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:41:27-75
+data
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:43:17-46:45
+	android:host
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:44:21-74
+	android:pathPrefix
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:45:21-47
+	android:scheme
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:46:21-42
+activity#com.hazani.chagit.homeexpensemanagment.LoginActivity
+ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:49:9-60
+	android:name
+		ADDED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml:49:19-48
+uses-sdk
+INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chagithazani/Documents/Android/projects/HomeExpenseManagment2/app/src/main/AndroidManifest.xml

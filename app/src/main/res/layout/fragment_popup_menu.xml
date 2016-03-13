@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    android:gravity="right"
+    tools:context="com.hazani.chagit.homeexpensemanagment.PopupMenuFragment">
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/popupMenuTVtitle"
+        android:text="@string/category_possibilities"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingBottom="15dp" />
+-->
+</LinearLayout>

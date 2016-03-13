@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hazani.chagit.homeexpensemanagment.CustomDatePickerFragment"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/transparentColor"
+        android:orientation="horizontal"
+        android:layoutMode="clipBounds"
+        android:outlineProvider="paddedBounds"
+        android:nestedScrollingEnabled="false">
+
+        <NumberPicker
+            android:id="@+id/datePickerDaysPicker"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+        <NumberPicker
+            android:id="@+id/datePickerMonthsPicker"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <NumberPicker
+            android:id="@+id/datePickerYearsPicker"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <!--
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:theme="@style/Animation.AppCompat.Dialog" />
+        -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/transparentColor"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/datePickerBcancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@color/transparentColor"
+                android:singleLine="true"
+                android:text="@string/cancel_BATEL"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/datePickerBchoose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@color/transparentColor"
+                android:singleLine="true"
+                android:text="@string/choose"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

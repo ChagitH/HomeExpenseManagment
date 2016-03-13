@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/cell_height"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="@dimen/padding_horizontal">
+    <!--  -->
+    <!--
+<TextView
+    android:layout_width="0dp"
+    android:layout_weight="0.3"
+    android:layout_height="wrap_content" />
+    -->
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentColor"
+        android:text="@string/save"
+        android:id="@+id/categoryItemBsave"
+        android:visibility="invisible"/>
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/list_item_text_size"
+        android:gravity="right"
+        android:clickable="false"
+        android:theme="@style/EditTextNoLineTheme"
+        android:id="@+id/categoryItemETname"
+        android:editable="false"
+        android:background="@android:color/transparent"
+        android:paddingRight="@dimen/padding_horizontal_small"
+        android:textColor="@color/textColor"/>
+
+</LinearLayout>

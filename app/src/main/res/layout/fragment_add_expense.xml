@@ -1,0 +1,263 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hazani.chagit.homeexpensemanagment.AddExpenseFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearlayout0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding_title_top"
+            android:paddingRight="@dimen/padding_horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:text="רישום הוצאה"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_text_size" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:gravity="right"
+                    android:textColor="@color/textColor"
+                    android:layout_gravity="right"
+                    android:id="@+id/addExpenseTVwelcomeOrNotLoggedIn"
+                    android:text="@string/you_are_not_logged_in"/>
+                <Button
+                    android:paddingTop="@dimen/padding_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/addExpenseBLoginOrRegister"
+                    android:text="@string/register"
+                    android:gravity="right"
+                    android:background="@android:color/transparent"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearlayout0"
+            android:paddingTop="@dimen/padding_top"
+            android:orientation="horizontal"
+            android:id="@+id/linearlayout1"
+            android:paddingRight="@dimen/padding_horizontal"
+            android:paddingLeft="@dimen/padding_horizontal">
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/addExpenseEtNumOfPayments"
+                android:gravity="center"
+                android:layout_alignParentStart="true"
+                android:theme="@style/EditTextTheme"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:paddingLeft="@dimen/padding_horizontal_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_of_payments" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:id="@+id/addExpenseEtSum"
+                android:paddingLeft="@dimen/padding_horizontal"
+                android:layout_toEndOf="@+id/textView2"
+                android:textColor="@color/textColor"
+                android:theme="@style/EditTextTheme"
+                android:focusable="true" />
+
+            <TextView
+                android:paddingLeft="@dimen/padding_horizontal_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sum"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_below="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/padding_horizontal"
+            android:paddingLeft="@dimen/padding_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/keva"
+                android:paddingLeft="@dimen/padding_horizontal"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/addExpenseCbIsStandingPayment"
+                android:theme="@style/EditTextTheme"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_below="@+id/linearlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/padding_horizontal"
+            android:paddingLeft="@dimen/padding_horizontal">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/addExpenseEtNote"
+                android:hint="עבור …   "
+                android:paddingLeft="@dimen/padding_horizontal"
+                android:textColor="@color/textColor"
+                android:theme="@style/EditTextTheme"
+                android:textColorHint="@color/textColor" />
+
+            <TextView
+                android:paddingLeft="@dimen/padding_horizontal_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearlayout4"
+            android:layout_below="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/padding_horizontal"
+            android:paddingLeft="@dimen/padding_horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_title_top"
+                android:text="קטגוריה וסעיף"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearlayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearlayout4"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingRight="@dimen/padding_horizontal"
+            android:paddingLeft="@dimen/padding_horizontal">
+
+            <Spinner
+                android:id="@+id/addExpenseSpinnerBudget"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:popupBackground="@color/colorForPercentageforground"/>
+            <Spinner
+                android:id="@+id/addExpenseSpinnerCat"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:popupBackground="@color/colorForPercentageforground"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearlayout5"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding_top">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/addExpenseTVDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:textSize="@dimen/medium_text_size"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:theme="@style/EditTextTheme"
+                android:textColor="@color/textColor" />
+
+            <ImageButton
+                android:id="@+id/addExpenseBChooseDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/email" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@+id/linearlayout6"
+            android:id="@+id/bAddExpenseAddExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/add_expense"
+            android:paddingTop="@dimen/padding_top"
+            android:background="@android:color/transparent" />
+    </RelativeLayout>
+
+
+</FrameLayout>

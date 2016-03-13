@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hazani.chagit.homeexpensemanagment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/mekimi"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/MyMaterialTheme" >
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="ZeHzMAs1VKU8O54YRj0QphoP7RWBQlMnB2OnFiMS" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="S83NhHbxy9oq7rNM5TcLaogJdxlPv8SkODMTHQYY" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--
+              ATTENTION: This intent was auto-generated. Follow instructions at
+              https://g.co/AppIndexing/AndroidStudio to publish your Android app deep links.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="homeexpensemanagment.chagit.hazani.com"
+                    android:pathPrefix="/main"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"></activity>
+    </application>
+
+</manifest>

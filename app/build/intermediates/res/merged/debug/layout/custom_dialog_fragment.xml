@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/custom_dialog_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingBottom="@dimen/padding_title_top"
+        android:paddingLeft="@dimen/padding_horizontal"
+        android:paddingRight="@dimen/padding_horizontal"
+        android:paddingTop="@dimen/padding_title_top"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/medium_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/custom_dialog_button_option1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="@string/delete_payments_from_now_on"
+            android:textColor="@color/colorPrimaryDark" />
+        <Button
+            android:id="@+id/custom_dialog_button_option2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/delete_all_payments"
+            android:layout_weight="1.5"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/custom_dialog_button_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+</LinearLayout>
